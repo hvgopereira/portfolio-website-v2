@@ -1,0 +1,187 @@
+@font-face {
+    font-family: Sequel;
+    src: url(../font/sequel-sans-heavy-disp.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+    font-family: Sequel;
+    /* font-family: "Poppins", sans-serif; */
+    color: var(--txt-principal);
+}
+
+body {
+    background: black;
+}
+
+:root {
+    --txt-principal: white;
+    --txt-secondary: rgb(104, 104, 104);
+    --main-color: #c6f91f;
+    --secondy-main-color: #401664;
+    --sec-main-color-bright: #8a03ff;
+}
+
+/* HEADER */
+.logo {
+    width: 80px;
+
+}
+
+.top-header {
+    
+    position: fixed;
+    width: 100%;
+
+
+
+    padding: 1rem 5rem 1rem 10rem;
+    display: flex;
+    align-items: center;
+    /* gap: 30rem; */
+    justify-content: space-between;
+
+    background: transparent;
+}
+
+.top-header nav ul {
+    display: flex;
+    align-items: center;
+    /* text-transform: uppercase; */
+    gap: 20px;
+}
+
+.top-header nav ul li a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+    background: transparent;
+    color: var(--secondy-main-color);
+    display: inline-block;
+    transition: all 0.2s;
+    border-bottom: 1px solid transparent;
+
+}
+
+.btn-header {
+    background: var(--secondy-main-color);
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: none;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+/* LINKS HEADER:HOVER */
+
+.top-header nav ul li .home-link:hover {
+    color: var(--txt-princial);
+    border-bottom-color: var(--sec-main-color-bright);
+    transform: translateY(-1px);
+}
+
+.top-header nav ul li .about-link:hover {
+    color: var(--txt-princial);
+    border-radius: 4px;
+    border-bottom-color: var(--secondy-main-color);
+    transform: translateY(-1px);
+}
+
+.top-header nav ul li .experience-link:hover {
+    color: var(--txt-princial);
+    border-bottom-color: var(--sec-main-color-bright);
+    transform: translateY(-1px);
+}
+
+.top-header nav ul li .projects-link:hover {
+    color: var(--txt-princial);
+    border-bottom-color: var(--sec-main-color-bright);
+    transform: translateY(-1px);
+}
+
+
+/* /LINKS HEADER:HOVER */
+
+
+/* /HEADER */
+
+/* MAIN */
+
+.main-principal {
+    padding: 0 0 0 22rem;
+    height: 46vw;
+
+    background: url(../assets/bg-site-att-2.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-txt-all {
+    position: absolute;
+    margin-bottom: 5rem;
+    margin-right: 60rem;
+    white-space: ;
+    line-height: 1;
+
+}
+
+.main-txt-all .main-greet {
+    font-size: 20px;
+    white-space: nowrap;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.main-txt-all .main-title {
+    font-size: 75px;
+    letter-spacing: 2px;
+}
+
+.main-txt-all .main-subtitle {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 0.6;
+
+    color: transparent;
+    background: linear-gradient(80deg, #90dddeea, #c6f91f);
+    background-clip: text;
+}
+
+.main-img-person-content {
+    width: 1100px;
+    margin-top: 5rem;
+
+}
+
+.btn-main {
+    top: 175px;
+    left: 230px;
+    white-space: nowrap;
+
+    position: absolute;
+
+    border: none;
+    border-radius: 20px;
+
+    padding: 25px 40px;
+
+    background: var(--main-color);
+
+}
