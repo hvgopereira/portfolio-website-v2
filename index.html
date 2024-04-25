@@ -4,35 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/global.css">
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- /BOX ICONS -->
+
+    <!-- GOOGLE ICONS -->
+    <!-- /GOOGLE ICONS -->
     <title>Document</title>
 </head>
 
 <body>
     <header class="top-header">
-        <a href=""><img class="logo" src="assets/logohp-web-white.png" alt=""></a>
-        <nav> 
+        <nav>
             <ul>
-                <li><a class="home-link" href="#">Home</a></li>
-                <li><a class="about-link" href="#">About</a></li>
+                <li class="logo-header-li"><a href="#home"><img class="logo" src="assets/logohp-web-white.png" alt=""></a></li>
+                <li><span class="material-symbols-outlined">
+                    home
+                    </span><a class="home-link" href="#home">Home</a></li>
+                <li><a class="about-link" href="#about">About</a></li>
                 <li><a class="experience-link" href="#">Experience</a></li>
                 <li><a class="projects-link" href="#">Projects</a></li>
-                <a href="#"><button class="btn-header">Contact</button></a>
             </ul>
         </nav>
+
+        <section class="midia-icons">
+            <i class='bx bxl-instagram' class="icon-instagram"></i>
+            <i class='bx bxl-github' class="icon-github"></i>
+            <i class='bx bxl-facebook' class="icon-facebook"></i>
+            <i class='bx bxl-linkedin' class="icon-linkedin"></i>
+        </section>
+
+        <a href="#"><button class="btn-header">Contact</button></a>
     </header>
+
+
 
     <div class="bg-main">
         <main class="main-principal">
             <section class="main-txt-all">
-                <h2 class="main-greet">Hi, Iam Luna Code👋</h2>
-                <h1 class="main-title">Frontend</h1>
-                <span class="main-subtitle">Developer.</span>
-                <a href="#"><button class="btn-main" >READ MORE</button></a>
+                <span class="txt-greet">Hi, Iam Luna Code 👋 </span>
+
+            <section class="main-title">
+                <h1 class="main-title-txt">Frontend</h1>
+                <h4 class="main-subtitle">Developer.</h4>
             </section>
+
+            <div class="btn-main-control">
+                <a href="#"><button class="btn-main">READ MORE</button></a>
+            </div>
+
+            <section class="more-information">
+                <h2 class="detail-information-o">Experience crafting effective <br> solutions for clients across <br> diverse global markets, <br> resulting in the successful launch <br> of numerous products.</h2>
+                <h3 class="detail-information-t">Highly skilled at progressive <br> enhancement, design systems & <br> UI Engineering.
+                </h3>
+            </section>
+            
             <section class="main-img-person">
                 <img class="main-img-person-content" src="assets/girl-person-img-2-pintada.png" alt="">
             </section>
         </main>
     </div>
+
+    <section id="about" class="about-all">
+        <section class="about-title">
+            <span>ABOUTASDASDASDASDASDASDASDASDASDASDASDASDAS <BR> ASDASDASDASDASD <BR>ASDASDASDASDASD </BR></BR></span>
+        </section>
+    </section>
 </body>
 </html>
