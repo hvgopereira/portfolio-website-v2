@@ -23,7 +23,7 @@ Obrigado por acompanhar o meu progresso neste projeto!
 
 <section>
 <img align="left" src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/b10acbdb-7e38-4305-bb28-4b13b2a8defe" title="Paleta de Cores" min-width="400px" max-width="400px" width="400px"></img>
-<p align="right"> Arrisquei usar essas cores exóticas mas que combinam muito, e me <br> surpreendi, eu gostei muito de estar fazendo esse site, e brincar com as sobreposições e cores, resultado final vai ficar fo$@ ! </p>
+<p align="right"> Arrisquei usar essas cores exóticas mas que combinam muito, e me surpreendi, eu gostei muito de estar fazendo esse site, e brincar com as sobreposições e cores, resultado final vai ficar fo$@ ! </p>
 </section>
 
 
