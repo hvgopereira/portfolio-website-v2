@@ -57,16 +57,16 @@ body {
     position: fixed;
     justify-content: center;
     font-size: 12px;
-    /* width: 80%; */
+    width: 80%;
     gap: 10rem;
 
 
 
-    /* top: 0; */
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 
-    /* border-radius: 15px; */
+    border-radius: 20px;
 
     /* box-shadow: 0 2px 40px rgba(37, 3, 33, 0.792); */
     /* right: 50%; */
@@ -81,8 +81,9 @@ body {
     /* background: #4c146c39; */
     /* background: rgba(0, 0, 0, 0.322); */
     /* background: #acfc04; */
-    background: rgba(255, 255, 255, 0.022);
+    /* background: rgba(255, 255, 255, 0.022); */
     /* background: blue; */
+    /* background: rgba(0, 0, 0, 0.142); */
 }
 
 .top-header > nav > ul > li > .home-link {
@@ -99,12 +100,13 @@ body {
 }
 
 .top-header > nav > ul {
-    /* margin-right: 13rem; */
+    margin-left: 4rem;
 }
 
 .top-header nav ul li {
     display: flex;
     align-items: center;
+
     gap: 4px;
 }
 
@@ -119,6 +121,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     
+
 
     background: transparent;
     /* color: var(--secondy-main-color); */
@@ -137,14 +140,16 @@ body {
     background: white;
     background-clip: text;
     font-size: 30px;
-
+    
 
     cursor: pointer;
-    gap: 30px;
+    gap: 25px;
     display: flex;
 
     border-bottom: 3px solid transparent;
-    border-radius: 3px;
+  
+
+    /* border-radius: 3px; */
 
 }
 
@@ -153,6 +158,9 @@ body {
     /* gap: 15px; */
     color: var(--secondy-main-color);
     transition: transform 0.2s;
+
+    display: flex;
+    align-items: center;
 }
 
 .midia-icons .bx:hover {
@@ -164,6 +172,9 @@ body {
 
 .bxl-instagram:hover {
     color: #E1306C; 
+    transform: scale(1.2);
+    border-bottom: 3px solid var(--secondy-main-color);
+    border-radius: 3px;
 }
 
 .bxl-github:hover {
@@ -185,7 +196,7 @@ body {
     background: var(--secondy-main-color);
     color: var(--txt-principal);
    
-    margin-right: 20rem;
+    margin-right: 28rem;
 
 
 
@@ -202,7 +213,7 @@ body {
 
 .btn-header:hover {
     cursor: pointer;
-    transform: scale(1.05);
+    transform: scale(1.09);
     /* box-shadow: 0px 5px 30px 0px rgba(22, 1, 21, 0.452); */
 }
 
@@ -295,15 +306,17 @@ body {
     white-space: nowrap;
     font-weight: 200;
 
-    margin-top: 200px;
+    margin-top: 210px;
 }
 
 .main-txt-all .main-title {
-    font-size: 65px;
+    font-size: 75px;
 
     line-height: 0.8;
     letter-spacing: 1px;
 }
+
+
 
 .main-txt-all .main-subtitle {
     font-size: 65px;
@@ -337,6 +350,8 @@ body {
     white-space: nowrap;
     position: relative;
 
+
+    cursor: pointer;
     /* position: absolute; */
     
     border: none;
@@ -346,19 +361,45 @@ body {
 
     color: var(--secondy-main-color);
     background: var(--main-color);
+    z-index: 100;
+
+    transition: all 0.5s;
 
 }
 
-.main-principal .btn-main-control .btn-main:hover {
-    background: red;
+.btn-main:hover {
+    transform: translateY(-10px);
 }
 
 .btn-main-control {
     position: absolute;
-    margin-top: 400px;
-    margin-left: 11rem;
+    ;
+    margin-top: 405px;
+    margin-left: 12rem;
 
 }
+
+/* .btn-download-cv {
+    right: 1px;
+    white-space: nowrap;
+    position: relative;
+    text-transform: uppercase;
+    margin: 0 22px;
+
+    cursor: pointer;
+    /* position: absolute; */
+    
+    /* border: 1px solid var(--main-color);
+    border-radius: 20px;
+
+    padding: 25px 35px;
+
+    color: var(--main-color);
+    background: transparent;
+    z-index: 100;
+
+    transition: all 0.5s; */
+/* } */
 
 
 /* .btn-main:hover {
