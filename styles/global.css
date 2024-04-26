@@ -61,7 +61,6 @@ body {
     gap: 10rem;
 
 
-
     top: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -118,8 +117,10 @@ body {
 .top-header nav ul li a {
     display: flex;
     align-items: center;
+    font-size: 13px;
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+    padding: 0 10px;
     
 
 
@@ -265,7 +266,8 @@ body {
     position: relative;
     z-index: 1;
 
-    background: url(../assets/bg-site-att-2.jpg);
+    /* background: url(../assets/bg-site-att-2.jpg); */
+    background: url(../assets/bg-site-att-3.jpg);
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -279,6 +281,46 @@ body {
 }
 
 
+.purple-star {
+    width: 50px;
+    position: absolute;
+    z-index: 99;
+    opacity: 100%;
+    top: 450px;
+    right: 220px;
+    
+}
+
+.green-star {
+    width: 50px;
+    position: absolute;
+    z-index: 99;
+    /* opacity: 100%; */
+    top: 20px;
+    right: 602px;
+
+   
+
+}
+
+.green-star-2 {
+    width: 40px;
+    position: absolute;
+    /* z-index: 99; */
+    /* opacity: 100%; */
+    top: 320px;
+    right: 782px;
+}
+
+/* .white-star {
+    width: 35px;
+    position: absolute;
+    top: 350px;
+    right: 630px;
+
+    /* opacity: 80%; */
+    /* z-index: 99; */
+/* } */
 
 /* .main-txt-all { */
     /* position: absolute;
@@ -309,6 +351,9 @@ body {
     margin-top: 210px;
 }
 
+.main-principal > .main-txt-all > .txt-greet > strong {
+}
+
 .main-txt-all .main-title {
     font-size: 75px;
 
@@ -320,14 +365,19 @@ body {
 
 .main-txt-all .main-subtitle {
     font-size: 65px;
+    font-family: "Poppins";
     font-weight: 700;
-    line-height: 0.6;
+    line-height: 0.8;
 
 
     color: transparent;
-    background: radial-gradient(circle at left, #ffffffea, rgb(178, 251, 195), #c6f91f);
+    /* background: linear-gradient(170deg, white, #c6f91f); */
+    /* background: radial-gradient(circle at top, #00d9ff, #c6f91f ,rgba(0, 242, 255, 0.844)); */
+    background-image: radial-gradient(circle, #c6f91f, #00ffae,#abfbfb);
+
     height: 80px;
     background-clip: text;
+    letter-spacing: -4px;
 }
 
 
@@ -349,6 +399,7 @@ body {
     right: 1px;
     white-space: nowrap;
     position: relative;
+    text-transform: uppercase;
 
 
     cursor: pointer;
@@ -357,7 +408,7 @@ body {
     border: none;
     border-radius: 20px;
 
-    padding: 25px 40px;
+    padding: 25px 50px 25px 40px;
 
     color: var(--secondy-main-color);
     background: var(--main-color);
@@ -366,6 +417,16 @@ body {
     transition: all 0.5s;
 
 }
+
+/* .detail-frontend {
+    width: 50px;
+    top: 323px;
+    left: 695px;
+    opacity: 20%;
+
+    position: absolute;
+
+} */
 
 .btn-main:hover {
     transform: translateY(-10px);
@@ -376,6 +437,14 @@ body {
     ;
     margin-top: 405px;
     margin-left: 12rem;
+    
+
+}
+
+.material-symbols-outlined {
+   position: absolute;
+   top: 20px;
+   margin-left: 4px;
 
 }
 
@@ -425,7 +494,12 @@ body {
     font-family: "Poppins";
     color: var(--main-color);
 
-    opacity: 90%;
+    background: rgba(255, 255, 255, 0.055);
+    padding: 1rem;
+    border-radius: 20px;
+
+
+    /* opacity: 80%; */
     top: 550px;
     left: 10rem;
 }
@@ -435,6 +509,10 @@ body {
     font-weight: 200;
     font-family: "Poppins";
     color: var(--main-color);
+
+    background: rgba(255, 255, 255, 0.055);
+    padding: 1rem;
+    border-radius: 20px;
 
     position: absolute;
     font-size: 15px;
