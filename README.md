@@ -1,10 +1,14 @@
 # Meu Projeto de Portfólio para a Faculdade
 
+ <h3 align="center"> :red_circle: NÃO É RESPONSIVO :red_circle: </h3>
 
 https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/c11d5460-e6d0-432b-8f08-d45c48162bc7
 
+<div align="center">
+  <h2 align="left">Em Desenvolvimento... </h2>
+</div>
+ 
 
-:red_circle:  <strong>NÃO É RESPONSIVO</strong> :red_circle:
 
 <img src="https://github.com/hvgopereira/netflix-remake/assets/162385532/1063be5e-a9fa-4aba-a6e5-ff5a99957761" min-width="150px" max-width="150px" width="150px" align="right" alt="Logo Hugo Pereira" > </img>
 
