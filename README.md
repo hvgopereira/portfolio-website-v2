@@ -18,8 +18,13 @@ Estou animado para compartilhar o resultado final deste projeto e espero que ele
 
 Obrigado por acompanhar o meu progresso neste projeto!
 
+##
+<h3 align="right"> Paleta de Cores </h3>
 
-<h4 align="center"> Arrisquei usar essas cores exóticas mas que combinam muito, e me surpreendi, eu gostei muito de estar fazendo esse site, e brincar com as sobreposições e cores, resultado final vai ficar fo$@ ! <h4>
+<section>
+<img align="right" src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/b10acbdb-7e38-4305-bb28-4b13b2a8defe" title="Paleta de Cores" min-width="500px" max-width="500px" width="500px"></img>
+<span align="left"> Arrisquei usar essas cores exóticas mas que combinam muito, e me <br> surpreendi, eu gostei muito de estar fazendo esse site, e brincar com as sobreposições e cores, resultado final vai ficar fo$@ ! </span>
+</section>
 
 
 
