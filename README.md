@@ -19,4 +19,7 @@ Estou animado para compartilhar o resultado final deste projeto e espero que ele
 Obrigado por acompanhar o meu progresso neste projeto!
 
 
+<h4 align="center"> Arrisquei usar essas cores exóticas mas que combinam muito, e me surpreendi, eu gostei muito de estar fazendo esse site, e brincar com as sobreposições e cores, resultado final vai ficar fo$@ ! <h4>
+
+
 
