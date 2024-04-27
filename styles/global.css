@@ -1,9 +1,9 @@
 @font-face {
-    font-family: Sequel ;
+    font-family: Sequel;
     src: url(../font/sequel-sans-heavy-disp.ttf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
@@ -12,7 +12,7 @@
     list-style: none;
     text-decoration: none;
 
-    font-family: Sequel;
+    /* font-family: "Montserrat", sans-serif; */
     /* font-family: "Poppins", sans-serif; */
     /* color: var(--txt-principal); */
 }
@@ -29,6 +29,7 @@
     /* background: linear-gradient(45deg, #8a03ff,#401664, #401664, #401664 ); */
 }
 
+
 :root {
     --txt-principal: white;
     --txt-secondary: rgb(104, 104, 104);
@@ -44,6 +45,12 @@ html {
 body {
     background: black;
     font-family: sequel;
+}
+
+.stars {
+    position: absolute;
+    z-index: 99;
+    width: 50px;
 }
 
 /* HEADER */
@@ -107,7 +114,7 @@ body {
     border-radius: 3px;
 }
 
-.top-header nav ul {
+.top-header nav ul {    
     display: flex;
     align-items: center;
     /* text-transform: uppercase; */
@@ -279,7 +286,7 @@ body {
     padding: 1rem 20rem;
     height: 720px;
     position: relative;
-    z-index: 99;
+    z-index: 98;
 
 
     /* background: url(../assets/bg-site-att-2.jpg); */
@@ -381,7 +388,7 @@ body {
 
 
 .main-txt-all .main-subtitle {
-    font-size: 65px;
+    font-size: 75px;
     font-family: "Poppins";
     font-weight: 700;
     line-height: 0.8;
@@ -411,6 +418,15 @@ body {
     /* position: relative; */
 }
 
+.btn-main-control {
+    position: absolute;
+    
+    margin-top: 400px;
+    margin-left: 12rem;
+    
+
+}
+
 
  .btn-main {
     animation: float 3s ease-in-out infinite;
@@ -433,7 +449,7 @@ body {
     z-index: 100;
 
     transition: all 0.5s;
-
+    font-weight: 700;
 }
 
 /* .detail-frontend {
@@ -448,15 +464,6 @@ body {
 
 .btn-main:hover {
     transform: translateY(-10px);
-}
-
-.btn-main-control {
-    position: absolute;
-    
-    margin-top: 405px;
-    margin-left: 12rem;
-    
-
 }
 
 .material-symbols-outlined {
@@ -542,7 +549,7 @@ body {
 
 /* ABOUT SECTION */
 
-.about-all {
+/* .about-all {
     padding: 20rem;
     background: white;
     color: black;
@@ -555,7 +562,7 @@ body {
     font-size: 50px;
     margin-top: 20rem;
 
-}
+} */
 
 
 
