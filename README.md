@@ -32,7 +32,8 @@ Obrigado por acompanhar o meu progresso neste projeto!
 
 ##
 
-<h2 align="left"> Sessão About </h2>
+<h3 align="left"> Sessão About: </h3>
+
 <p> Foi muito legal trabalhar nessa sessão e ver o resultado final. Claro, sempre podemos ajustar algumas coisas no futuro, mas estou realmente empolgado para continuar trabalhando nas próximas etapas deste projeto. Cada nova sessão é uma oportunidade para aprender e crescer, e mal posso esperar para ver como tudo vai se desenvolver. Vamos em frente! </p>
 <h6 align="right">Adicionado 22/04</h6>
 <img src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/d125de07-461a-4057-a6a7-a9118cc83324"> </img>
