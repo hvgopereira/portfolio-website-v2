@@ -41,7 +41,7 @@ Obrigado por acompanhar o meu progresso neste projeto!
 
 
 
-<h6 align="right">Adicionado 27/04</h6>
+<h6 align="right">Adicionado 27/4</h6>
 
 
 
