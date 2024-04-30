@@ -48,6 +48,17 @@ Obrigado por acompanhar o meu progresso neste projeto!
 <img src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/d125de07-461a-4057-a6a7-a9118cc83324"> </img>
 <section align="center"> Illustração feita gratuitamente no site: https://storyset.com </section>
 
+#
+
+<h3 align="left"> Sessão Services and Skills: </h3>
+
+<p> Sessão que de primeira não tinha gostado muito do resultado mas estou me acostumando kkk, pode passar por alterações ainda, mas por hora essa será minha sessão de services, que apresento os serviços prestados pela Luna Code, além das skills, quais softwares, frameworks que ela domina. </p>
+
+<h6 align="right">Adicionado 30/04</h6>
+
+<video src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/aac4ed0c-a256-4f23-9a2f-1e312586f3b0"></video>
+
+
 ##
 
 <section align="center" style="display: inline-block; ">
@@ -56,4 +67,5 @@ Obrigado por acompanhar o meu progresso neste projeto!
   <img title="Html5" align="center" alt="hugo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img title="CSS3" align="center" alt="hugo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </section>
+
 
