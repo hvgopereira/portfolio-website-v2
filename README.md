@@ -58,14 +58,24 @@ Obrigado por acompanhar o meu progresso neste projeto!
 
 <video src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/aac4ed0c-a256-4f23-9a2f-1e312586f3b0"></video>
 
-
 ##
+
+<h3 align="center"> JavaScript adicionado </h3>
+
+<p> Tive que adcionar um pouco de código javascript para funcionalidade do site, que é fundamental pra usabilidade do usúario como no vídeo mostrado abaixo. </p>
+
+<h6> Sem JS </h6>
+<img src=""> </img>
+
+
 
 <section align="center" style="display: inline-block; ">
   <strong> Softwares usados : </strong>
   <img title="Adobe Photoshop" align="center" alt="hugo-ps" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
   <img title="Html5" align="center" alt="hugo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img title="CSS3" align="center" alt="hugo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img title="Javascript" align="center" alt="hugo-js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg">
+ 
 </section>
 
 
