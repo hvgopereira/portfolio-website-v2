@@ -11,7 +11,7 @@
   <h2 align="left">Em Desenvolvimento... </h2>
 </div>
  
-..
+.
 
 <img src="https://github.com/hvgopereira/netflix-remake/assets/162385532/1063be5e-a9fa-4aba-a6e5-ff5a99957761" min-width="150px" max-width="150px" width="150px" align="right" alt="Logo Hugo Pereira" > </img>
 
