@@ -69,7 +69,7 @@ Obrigado por acompanhar o meu progresso neste projeto!
 <p align="center" > O header ficava invísvel e muito ruim de utilizar ao passar para outras sessões </p>
 
 <h6> Com JS </h6>
-<img width="1500px" src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/0f7154a2-04b8-43da-a766-396c19a00f04"> </img>
+<img width="1500px" src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/01277b0f-043b-47bd-8fb7-853321181014"> </img>
 <p align="center" > E aqui está resolvido, sempre que passo pra outra sessão a header se adequa a mesma, além de adcionar a borda embaixo representando cada sessão. </p>
 
 
