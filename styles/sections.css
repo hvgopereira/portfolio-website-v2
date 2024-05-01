@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --txt-principal: white;
+    --txt-secondary: rgb(104, 104, 104);
+    --main-color: #c6f91f;
+    --secondy-main-color: #401664;
+    --sec-main-color-bright: #8a03ff;
+}
+
+
+.bg-about {
+    background: url(../assets/bg-about-3.jpg);
+    background-size: 1400px;
+}
+
+
+.about-all {
+    padding: 0 5rem;
+    align-items: center;
+    display: flex;
+    gap: 5.5rem;
+    justify-content: center;
+    z-index: 98;
+    height: 740px;
+    /* background: url(../assets/bg-about-2.jpg); */
+    
+}
+
+
+.about-txt {
+    margin-top: 5rem;
+    margin-right: 2rem  ;
+    align-self: flex-start;
+    gap: 8px;
+    /* white-space: nowrap; */
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title {
+    letter-spacing: -1px;
+    font-weight: 700;
+
+    font-family: 'Montserrat';
+    font-size: 45px;
+    color: var(--secondy-main-color);
+}
+
+.about-info {
+    background: rgba(0, 0, 0, 0.010);
+    padding: 20px;
+    border-radius: 20px;
+
+
+    white-space: now;
+    color: #361d4d;
+    line-height: 1.6;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+.illustration-img {
+    width: 550px;
+
+}
+
+.illustration-img.scrolled {
+    width: 750px;
+    background: red;
+}
+
+.green-star-3 {/* Purple Star */
+    position: absolute;
+    width: 50px;
+    z-index: 99;
+    animation: float 3s forwards infinite;
+
+    bottom: 40px;
+    left: 1300px;
+    right: 200;
+}
+
+.green-star-4 {
+    position: absolute;
+    width: 50px;
+    animation: float 3s forwards infinite;
+
+    bottom: 550px;
+    left: 780px;
+    right: 200;
+}
+
+/* SECTION SERVICES */
+
+.bg-services {
+    background: url(../assets/bg-services.jpg);
+    background-size: 1550px;
+    
+    height: 770px;
+    padding: 6rem 10rem;
+    
+
+}
+
+.services-all {
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 5rem; */
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    z-index: 98;
+    margin-bottom: 1px;
+    padding: 1rem;
+    /* height: 730px; */
+}
+
+.service-txt {
+    align-items: center;
+    gap: 8px;
+    /* white-space: nowrap; */
+    display: flex;
+    flex-direction: column;
+}
+
+.service-title {
+    font-weight: 700;
+
+    /* font-family: poppins; */
+    font-family: 'Montserrat';
+    font-size: 30px;
+
+    /* color: transparent;
+    background: linear-gradient(45deg, white, white, #c6f91f);
+    background-clip: text; */
+    color: var(--txt-principal);
+    /* text-transform: uppercase; */
+}
+
+.service-skill {
+    font-size: 15px;
+    font-family: Poppins;
+    /* text-transform: uppercase; */
+    font-weight: 800;
+    
+
+    color: var(--txt-principal);
+    display: flex;
+    align-self: center;
+    /* line-height: 0; */
+}
+
+.cards-service-all {
+    color: var(--txt-principal);
+    display: flex;
+    gap: 2rem;
+    font-family: poppins;
+    /* perspective: 1000px; */
+
+}
+
+.card-service {
+    /* background: rgba(0, 0, 0, 0.171); */
+    background: rgba(0, 0, 0, 0.185);
+    /* background: linear-gradient(45deg, rgba(0, 0, 0, 0.327), transparent, rgba(255, 255, 255, 0.118)); */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* transform: rotateY(20deg); */
+
+
+    cursor: default;
+    
+    border-top: 1px solid rgba(255, 255, 255, 0.515);
+    backdrop-filter: blur(5px);
+
+    height: 280px;
+    width: 250px;
+    padding: 50px 20px;
+    border-radius: 25px;
+
+    transition: transform 0.3s;
+}
+
+.card-service:hover {
+
+    /* box-shadow: 0px 12px 0px rgba(0, 0, 0, 0.374); */
+    /* background: linear-gradient(45deg, #380c4c,#380c4c, rgba(255, 255, 255, 0.168)); */
+    /* box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.371); */  
+
+    /* border: 2px solid var(--main-color); */
+    transform: scale(1.07);
+    border-top: 1px solid white;
+    /* background: linear-gradient(45deg,rgba(0, 0, 0, 0.186),rgba(0, 0, 0, 0.186), rgba(255, 255, 255, 0.066), rgba(255, 255, 255, 0.378) ); */
+    /* box-shadow: -5px 20px 40px rgba(0, 0, 0, 0.57); */
+
+   
+    /* background: linear-gradient(45deg, rgba(0, 0, 0, 0.374), transparent, transparent, rgba(255, 255, 255, 0.062)); */
+}
+
+
+.card-txt {
+    color: var(--txt-principal);
+    font-size: 12px;
+    font-weight: 200;
+    font-family: "Poppins";
+    color: var(--main-color);
+}
+
+
+.card-icon {
+    color: var(--main-color);
+    font-size: 10000px;
+    width: 180px;
+    size: 180px;
+
+    margin-bottom: 10px;
+
+}
+
+/* SKILL */
+
+.skill-icons-wrapper {
+    margin-top: rem;
+    /* gap: 2rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-txt{
+    margin-bottom: 1rem;
+    display: flex;
+    /* z-index: 100; */
+}
+
+.skill-txt > span {
+    
+    font-size: 30px;
+
+}
+
+
+.skill-icons {
+    gap: 10px;
+    display: flex;
+    /* display: inline-block; */
+    padding: 1rem;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.21);
+    border-bottom: 1px solid var(--main-color);
+    /* background: rgba(0, 0, 0, 0.074); */
+
+    
+}
+
+.skill-icons img{
+    transition: all 0.2s;
+}
+
+.skill-icons i{
+    transition: all 0.1s;
+}
+
+.skill-icons i:hover {
+    transform: scale(1.7);
+    transition: all 0.2s ease-out;
+}
+
+
+
+.skill-icons img:hover {
+    transform: scale(1.7);
+    transition: all 0.2s ease-out;
+}
+
+
+/* /SKILL */
+
+/* /SECTION SERVICES */
+
+
+/* SECTION PROJECTS */
+
+.bg-project {
+    background: url(../assets/bg-about-2.jpg);
+    background-size: 1550px;
+    height: 740px;
+    padding: 6rem 10rem;
+}
+
+
+
+
+
+
+
+/* /SECTION PROJECTS */
