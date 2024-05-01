@@ -43,7 +43,6 @@ Obrigado por acompanhar o meu progresso neste projeto!
 <h6 align="right">Adicionado 27/04</h6>
 
 
-
 <img src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/d125de07-461a-4057-a6a7-a9118cc83324"> </img>
 <section align="center"> Illustração feita gratuitamente no site: https://storyset.com </section>
 
@@ -82,7 +81,6 @@ Obrigado por acompanhar o meu progresso neste projeto!
   <img title="Html5" align="center" alt="hugo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img title="CSS3" align="center" alt="hugo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img title="Javascript" align="center" alt="hugo-js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg">
- 
 </section>
 
 
