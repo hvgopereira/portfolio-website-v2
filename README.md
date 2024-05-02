@@ -1,6 +1,6 @@
 # Meu Projeto de Portfólio para a Faculdade
 
- <h3 align="center"> :red_circle: NÃO É RESPONSIVO :red_circle: </h3>
+ <h3 align="center"> :red_circle: NÃO É RESPONSIVO :red_circle </h3>
 
 <h6 align="center"> OBS: todas informações nesse site são FICTÍCIAS, não há informações e nem dados verdadeiros, site criado apenas para fim de estudos. <br> Imagem da garota retirada do site: https://freepik.com </h6>
 
