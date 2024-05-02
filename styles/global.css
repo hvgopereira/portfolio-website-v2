@@ -11,11 +11,15 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
 
     /* font-family: "Montserrat", sans-serif; */
     /* font-family: "Poppins", sans-serif; */
     /* color: var(--txt-principal); */
 }
+
+
 
 ::-webkit-scrollbar {
     /* background: transparent; */
@@ -40,11 +44,12 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 10rem;
 }
 
 body {
     background: black;
-    font-family: sequel;
+    font-family: poppins;
 }
 
 .stars {
@@ -53,14 +58,6 @@ body {
     width: 50px;
 }
 
-.active-border {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 3px; /* Altura da borda */
-    background-color: red; /* Cor da borda */
-    transition: left 0.3s ease, width 0.3s ease;
-}
 
 /* HEADER */
 .logo {
@@ -159,6 +156,7 @@ body {
 
 .top-header.scrolled-about nav ul li a {
     color: var(--secondy-main-color);
+    font-weight: 600;
     
     /* transition: color 0.4s ease; */
 }
@@ -174,6 +172,37 @@ body {
     width: 81px;   
 
 }
+
+/* SCROLLED PROJECT */
+
+
+.top-header.scrolled-project nav ul li .projects-link {
+    border-bottom: 3px solid var(--secondy-main-color) ;
+}
+
+
+.top-header.scrolled-project nav ul li a {
+    color: var(--secondy-main-color);
+    font-weight: 600;
+    
+    /* transition: color 0.4s ease; */
+}
+
+.top-header.scrolled-project nav ul li a:hover {
+    color: #19042c;
+}
+
+
+
+.top-header.scrolled-project .links:hover {
+    border-bottom: 3px solid var(--secondy-main-color) ;
+
+}
+
+
+
+
+/* /SCROLLED PROJECT */
 
 /* ABOUT JS */
 
