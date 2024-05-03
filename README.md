@@ -8,7 +8,7 @@
 
 
 <div align="center">
-  <h2 align="left">Em Desenvolvimento.. </h2>
+  <h2 align="left">Em Desenvolvimento. </h2>
 </div>
  
 
