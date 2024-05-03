@@ -10,7 +10,7 @@
 
 
 .bg-about {
-    background: url(../assets/bg-about-3.jpg);
+    background: url(../assets/bg-about-2.jpg);
     background-size: 1400px;
 }
 
@@ -336,7 +336,7 @@
 /* SECTION PROJECTS */
 
 .division {
-    /* margin: 4rem; */
+    margin: 5rem;
     background: black;
     height: 1px;
 }
@@ -394,7 +394,7 @@
 
 .bg-project {
     z-index: 1;
-    background: url(../assets/bg-projects-2.jpg);
+    background: url(../assets/bg-projects-3.jpg);
     /* background-size: 1550px; */
     background-size: 1300px;
     /* background: cover; */
@@ -406,31 +406,56 @@
 .card-project-wrapper {
     /* margin-bottom: 6rem; */
 
-    display: flex;
-    gap: 4rem;
-    justify-content: center;
-    perspective: 1000px;
+   position: relative;
 
+   align-items: center;
+   display: flex;
+   gap: 4rem;
+   justify-content: center;
+   perspective: 900px;
+
+}
+
+.card-project-wrapper::after {
+   content: "";
+   
+   position: absolute;
+   height: 300px;
+   width: 1000px;
+   border-radius: 30px;
+
+   /* background: rgba(0, 0, 0, 0.152); */
+   background: var(--secondy-main-color);
+   /* width: 100%; */
 }
 
 .card-project {
+   z-index: 100;
     
-    background: rgba(0, 0, 0, 0.318);
-    width: 270px;
-    height: 250px;
+    /* background: rgba(0, 0, 0, 0.318); */
+   background: url(../assets/netflix-bg.png);
+   background-size: 290px 250px;
+   background-repeat: no-repeat;
+   background-position: center;
 
-    transform: rotateY(30deg);
-    transition: all 0.3s;
+   width: 290px;
+   height: 250px;
+
+   transform: rotateY(30deg);
+   transition: all 0.3s;
 
 
-    display: flex;
+   display: flex;
 
-    border-radius: 30px;
+   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.71);
+   border-radius: 10px;
 }
 
 .card-project:hover {
-    transform: rotateY(0deg) scale(1.05) translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.289);
+   transform: rotateY(0deg) scale(1.09) translateY(-7px);
+   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.289);
+   perspective: none;
+
     
 
 }
@@ -454,19 +479,23 @@
 }
 
 .txt-project-all {
+   z-index: 100;
+
     display: flex;
+    gap: 1rem;
     flex-direction: column;
 }
 
 .txt-project-title {
     font-weight: 700;
     font-family: 'Montserrat';
-    font-size: 30px;
+    font-size: 40px;
 
     color: var(--txt-principal);
 }
 
 .txt-project-txt {
+
     white-space: now;
     color: #361d4d;
     line-height: 1.6;
