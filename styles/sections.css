@@ -211,7 +211,7 @@
     cursor: default;
     
     border-top: 1px solid rgba(255, 255, 255, 0.515);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(1000px);
 
     height: 280px;
     width: 250px;
@@ -342,7 +342,7 @@
 }
 
 
-.purple-star-6 {
+/* .purple-star-6 {
     position: absolute;
     width: 400px;
     height: 400px;
@@ -351,13 +351,18 @@
 
     left: 800px;
     top: -95px;
-}
+} */
 
 .project-title {
     font-weight: 700;
-    animation: float 5s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* animation: float 5s infinite; */
 
-    position: relative;
+    /* animation: crescer 1s infinite; */
+    margin-top: 1rem;
+
 
     font-family: 'Montserrat';
     font-size: 50px;
@@ -366,14 +371,14 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 
-    margin-top: 4rem;
+    /* position: relative; */
+    /* margin-top: 4rem;
     display: flex;
     align-items: center;
     justify-content: right;
     margin-right: 16rem;
 
-    z-index: 100;
-    
+    z-index: 100; */
 }
 
 
@@ -416,18 +421,6 @@
 
 }
 
-.card-project-wrapper::after {
-   content: "";
-   
-   position: absolute;
-   height: 300px;
-   width: 1000px;
-   border-radius: 30px;
-
-   /* background: rgba(0, 0, 0, 0.152); */
-   background: var(--secondy-main-color);
-   /* width: 100%; */
-}
 
 .card-project {
    z-index: 100;
@@ -440,6 +433,10 @@
 
    width: 290px;
    height: 250px;
+   /* animation: float 1s infinite; */
+
+   animation: crescer 2s infinite;
+   cursor: pointer;
 
    transform: rotateY(30deg);
    transition: all 0.3s;
@@ -449,15 +446,32 @@
 
    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.71);
    border-radius: 10px;
+   opacity: 80%;
+
 }
 
 .card-project:hover {
-   transform: rotateY(0deg) scale(1.09) translateY(-7px);
+   transform: rotateY(0deg) scale(1.15) translateY(-7px);
    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.289);
    perspective: none;
+   opacity: 100%;
 
-    
+}
 
+.card-project:hover + .txt-project-all {
+   /* Propriedades CSS para afetar o elemento .txt-project-all no hover de .card-project */
+   /* Por exemplo: */
+   transform: rotateY(0deg) translateY(-18px);
+   perspective: none;
+
+
+   opacity: 100%;
+}
+
+.card-project:hover + .txt-project-all::after{
+   z-index: -1;
+   background: linear-gradient(to top left, transparent, rgba(0, 0, 0, 0.204));
+   border: 1px solid var(--secondy-main-color);
 }
 
 .project-all {
@@ -478,31 +492,99 @@
     transform: rotateY(0deg) scale(1.05) translateY(-30px);
 }
 
+.txt-project-all::after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+
+   border: 1px solid var(--secondy-main-color);
+   background: linear-gradient(to top left, transparent, rgba(0, 0, 0, 0.111));
+   /* border-top: 1px solid rgb(255, 255, 255);
+   background: rgb(0, 0, 0); */
+   /* opacity: 10%; */
+   /* background: linear-gradient(to right, #130520,#130520, #130520,transparent); */
+
+   height: 300px;
+   width: 590px;  
+   right: -12px;
+   top: -10px;
+   backdrop-filter: blur(2px);
+
+   border-radius: 30px;
+
+}
+
+
 .txt-project-all {
-   z-index: 100;
+   z-index: 5;
+   position: relative;
 
     display: flex;
     gap: 1rem;
     flex-direction: column;
+
+    transition: all 0.2s;
 }
 
 .txt-project-title {
     font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1px;
     font-family: 'Montserrat';
     font-size: 40px;
 
-    color: var(--txt-principal);
+    /* color: var(--txt-principal); */
+   color: var(--secondy-main-color);
+   /* color: var(--main-color); */
 }
 
 .txt-project-txt {
 
     white-space: now;
-    color: #361d4d;
+    color: #241235;
+    /* color: #8cae1d; */
+
+
     line-height: 1.6;
     font-size: 14px;
     font-family: "Montserrat";
     font-weight: 500;
 }
+
+
+/* .tec-icon {
+   position: relative;
+} */
+
+/* .tec-icon::after {
+   content: "";
+   background: rgb(0, 0, 0);
+   width: 50px;
+   height: 50px;
+
+   z-index: 100;
+} */
+
+.tec-icon {
+   position: relative;
+   z-index: 100;
+}
+
+.tec-icon::after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+
+   height: 35px;
+   width: 270px;
+   left: 1px;
+   top: 8px;
+
+   /* background: rgba(0, 0, 0, 0.153); */
+   background: #c6f91f23;
+   border-radius: 20px;
+}
+
 
 .btn-project-wrapper {
     display: flex;
@@ -510,5 +592,32 @@
 
 }
 
+.btn-project-view {
+   background: var(--main-color);
+   color: var(--secondy-main-color);
+   font-family: poppins;
+   font-weight: 600;
+
+   border-radius: 15px;
+   border: none;
+   outline: none;
+
+   width: 150px;
+   height: 50px;
+
+}
+
+.btn-project-github {
+   background: transparent;
+   border: 1px solid var(--secondy-main-color);
+   border-radius: 15px;
+
+   color: var(--secondy-main-color);
+
+   width: 150px;
+   height: 50px;
+   /* border: none; */
+   outline: none;
+}
 
 /* /SECTION PROJECTS */
