@@ -75,7 +75,7 @@
     position: absolute;
     width: 50px;
     z-index: 99;
-    animation: float 3s forwards infinite;
+    /* animation: float 3s forwards infinite; */
 
     bottom: 40px;
     left: 1300px;
@@ -85,7 +85,7 @@
 .green-star-4 {
     position: absolute;
     width: 50px;
-    animation: float 3s forwards infinite;
+    /* animation: float 3s forwards infinite; */
 
     bottom: 550px;
     left: 780px;
@@ -108,7 +108,7 @@
 .services-all {
     display: flex;
     flex-direction: column;
-    /* padding: 0 5rem; */
+    
     align-items: center;
     display: flex;
     gap: 3rem;
@@ -116,12 +116,11 @@
     z-index: 98;
     margin-bottom: 1px;
     padding: 1rem;
-    /* height: 730px; */
+    
 }
 
 .service-txt {
     align-items: center;
-    /* white-space: nowrap; */
     display: flex;
     flex-direction: column;
 }
@@ -129,7 +128,7 @@
 .green-star-5 {
     width: 60px;
 
-    animation: float 3s infinite;
+    /* animation: float 3s infinite; */
 
     position: absolute;
     left: 875px;
@@ -179,14 +178,12 @@
 .service-skill {
     font-size: 15px;
     font-family: Poppins;
-    /* text-transform: uppercase; */
+   
     font-weight: 800;
     
 
     color: var(--txt-principal);
-    display: flex;
-    /* align-self: center; */
-    /* line-height: 0; */
+   
 }
 
 .cards-service-all {
@@ -194,24 +191,18 @@
     display: flex;
     gap: 2rem;
     font-family: poppins;
-    /* perspective: 1000px; */
 
 }
 
 .card-service {
-    /* background: rgba(0, 0, 0, 0.171); */
     background: rgba(0, 0, 0, 0.185);
-    /* background: linear-gradient(45deg, rgba(0, 0, 0, 0.327), transparent, rgba(255, 255, 255, 0.118)); */
     display: flex;
     flex-direction: column;
     gap: 10px;
-    /* transform: rotateY(20deg); */
-
 
     cursor: default;
     
     border-top: 1px solid rgba(255, 255, 255, 0.515);
-    backdrop-filter: blur(1000px);
 
     height: 280px;
     width: 250px;
