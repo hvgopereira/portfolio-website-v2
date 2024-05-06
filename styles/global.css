@@ -140,9 +140,12 @@ body {
     border-bottom: 3px solid var(--main-color);
 }
 
+.top-header.scrolled-project-margin {
+}
+
 .top-header.scrolled-project-margin .btn-header {
     background: var(--main-color);
-    color: var(--secondy-main-color);
+    /* color: var(--secondy-main-color); */
     transition: all 0.3s;
 }
 
@@ -153,18 +156,25 @@ body {
 
 .top-header.scrolled-project-margin .midia-icons .bxl-facebook {
     /* color: var(--secondy-main-color); */
-    background: var(--secondy-main-color);
+    /* background: var(--secondy-main-color); */
     border-radius: 20px;
 
 }
 
 .top-header.scrolled-project-margin .midia-icons .bxl-linkedin {
-    background: var(--secondy-main-color);
-    padding: 0 6px;
+    /* background: var(--secondy-main-color); */
+    /* padding: 0 6px; */
     border-radius: 20px;
 
 }
 
+
+.top-header.scrolled-project {
+   background: rgba(0, 0, 0, 0.627);
+
+   transition: all 0.3s;
+
+}
 
 .top-header.top-header.scrolled-about .btn-header {
     /* transition: all 3s ease; */
@@ -207,12 +217,14 @@ body {
 
 
 .top-header.scrolled-project nav ul li .projects-link {
-    border-bottom: 3px solid var(--secondy-main-color) ;
+    /* border-bottom: 3px solid var(--secondy-main-color) ; */
+    border-bottom: 3px solid var(--main-color) ;
 }
 
 
 .top-header.scrolled-project nav ul li a {
-    color: var(--secondy-main-color);
+    /* color: var(--secondy-main-color); */
+    /* color: var(--main-color); */
     font-weight: 600;
     
     /* transition: color 0.4s ease; */
@@ -229,19 +241,21 @@ body {
 }
 
 .top-header.scrolled-project .midia-icons i {
-    color: var(--secondy-main-color);
+    /* color: var(--secondy-main-color); */
+    color: var(--main-color);
 }
 
 .top-header.scrolled-project .midia-icons .bxl-facebook {
-    background: none;
+    /* background: none; */
 }
 
 .top-header.scrolled-project .midia-icons .bxl-linkedin {
-    background: none;
+    /* background: none; */
 }
 
 .top-header.scrolled-project .links:hover {
-    border-bottom: 3px solid var(--secondy-main-color) ;
+    /* border-bottom: 3px solid var(--secondy-main-color) ; */
+    border-bottom: 3px solid white ;
 
 }
 

@@ -437,7 +437,7 @@
 
    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.71);
    border-radius: 10px;
-   opacity: 80%;
+   opacity: 90%;
 
 }
 
@@ -447,6 +447,11 @@
    perspective: none;
    opacity: 100%;
 
+   width: 300px;
+   height: 250px;
+
+   background-size: 400px 300px;
+
 }
 
 .card-project:hover + .txt-project-all {
@@ -454,16 +459,29 @@
    /* Por exemplo: */
    transform: rotateY(0deg) translateY(-18px);
    perspective: none;
+   z-index: 100;
 
-
+   margin-right: -40px;
    opacity: 100%;
 }
 
 .card-project:hover + .txt-project-all::after{
    z-index: -1;
+
    background: linear-gradient(to top left, transparent, rgba(0, 0, 0, 0.204));
-   border: 1px solid var(--secondy-main-color);
+
+   height: 300px;
+   width: 590px;  
+   right: -25px;
+   top: -10px;
+   /* border: 1px solid var(--secondy-main-color); */
 }
+
+.card-project:hover + .txt-project-all > .txt-project-title {
+   /* color: red; */
+
+}
+
 
 .project-all {
     margin-top: 5rem;
@@ -488,7 +506,7 @@
    position: absolute;
    z-index: -1;
 
-   border: 1px solid var(--secondy-main-color);
+   /* border: 1px solid var(--secondy-main-color); */
    background: linear-gradient(to top left, transparent, rgba(0, 0, 0, 0.111));
    /* border-top: 1px solid rgb(255, 255, 255);
    background: rgb(0, 0, 0); */
@@ -503,6 +521,8 @@
 
    border-radius: 30px;
 
+   transition: all 0.3s;
+
 }
 
 
@@ -514,7 +534,7 @@
     gap: 1rem;
     flex-direction: column;
 
-    transition: all 0.2s;
+    transition: all 0.5s;
 }
 
 .txt-project-title {
@@ -524,10 +544,14 @@
     font-family: 'Montserrat';
     font-size: 40px;
 
+    color: #401664;
+
+    transition: all .3s;
     /* color: var(--txt-principal); */
-   color: var(--secondy-main-color);
+   /* color: var(--secondy-main-color); */
    /* color: var(--main-color); */
 }
+
 
 .txt-project-txt {
 
