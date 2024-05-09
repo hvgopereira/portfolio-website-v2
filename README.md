@@ -57,13 +57,14 @@ Obrigado por acompanhar o meu progresso neste projeto!
 <video src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/aac4ed0c-a256-4f23-9a2f-1e312586f3b0"></video>
 
 
-<h3 align="left"> Sessão  </h3>
+<h3 align="left"> Sessão Projects </h3>
 
-<p> Sessão que de primeira não tinha gostado muito do resultado mas estou me acostumando kkk, pode passar por alterações ainda, mas por hora essa será minha sessão de services, que apresento os serviços prestados pela Luna Code, além das skills, quais softwares, frameworks que ela domina. </p>
+<p> Esse sessão fiz meio que no automático, já tinha a ideia na cabeça e com várias dificuldades kkk consegui fazer e acho que ficou legal, mas pode ocorrer mudanças no futuro. </p>
 
-<h6 align="right">Adicionado 30/04</h6>
+<h6 align="right">Adicionado 06/04</h6>
 
-<video src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/aac4ed0c-a256-4f23-9a2f-1e312586f3b0"></video>
+<video src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/3a0d19c9-1091-4c5b-90a5-b61d5cb46b60"></video>
+
 
 
 
