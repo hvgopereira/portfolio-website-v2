@@ -56,6 +56,19 @@ Obrigado por acompanhar o meu progresso neste projeto!
 
 <video src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/aac4ed0c-a256-4f23-9a2f-1e312586f3b0"></video>
 
+
+<h3 align="left"> Sessão  </h3>
+
+<p> Sessão que de primeira não tinha gostado muito do resultado mas estou me acostumando kkk, pode passar por alterações ainda, mas por hora essa será minha sessão de services, que apresento os serviços prestados pela Luna Code, além das skills, quais softwares, frameworks que ela domina. </p>
+
+<h6 align="right">Adicionado 30/04</h6>
+
+<video src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/aac4ed0c-a256-4f23-9a2f-1e312586f3b0"></video>
+
+
+
+
+
 ##
 
 <h3 align="center"> JavaScript adicionado </h3>
