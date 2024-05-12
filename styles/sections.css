@@ -249,7 +249,7 @@
 /* SKILL */
 
 .skill-icons-wrapper {
-    margin-top: 2rem;
+    margin-top: 4rem;
     /* gap: 2rem; */
     display: flex;
     flex-direction: column;
@@ -623,6 +623,7 @@
    /* font-family: inter; */
    font-weight: 600;
 
+   border: 1px solid var(--secondy-main-color);
    border-radius: 15px;
 
    width: 150px;
@@ -632,7 +633,8 @@
 
    transition: all 0.3s;
 
-   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.204);
+   /* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.204); */
+   box-shadow: 5px 3px 0px 2px;
 
 }
 
@@ -664,7 +666,9 @@
 
    gap: 5px;
 
-   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.111);
+   /* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.111); */
+   box-shadow: 5px 3px 0px 2px;
+
 
 }
 
@@ -677,6 +681,8 @@
 .btn-project-github:hover {
    background: var(--secondy-main-color);
    color: var(--main-color);
+   /* box-shadow: 5px 3px 0px 2px var; */
+   
    /* color: white; */
 
    transform: scale(1.05);
@@ -757,22 +763,25 @@
    background: url(../assets/bg-contact-me.jpg);
    background-size: cover;
 
-   height: 950px;
+   height: 850px;
    /* padding: 45vh; */
 
    display: flex;
    justify-content: center;
-   align-items: center;
+   /* align-items: center; */
 
    font-family: "Inter";
 }
 
 #contact {
    position: absolute;
-   top: -120px;
+   top: -150px;
+
+   font-size: 60px;
 }
 
 .container-form {
+   margin-top: 1rem;
    background: white;
 
    /* height: 90%; */
@@ -780,6 +789,7 @@
 
    height: 750px;
    width: 1000px;
+   border-radius: 30px;
 
    /* padding: 1rem; */
 
@@ -799,17 +809,17 @@
    align-items: center;
    text-align: center;
 
-   gap: 4rem;
+   gap: 5rem;
 }
 
 .header-form {
    display: flex;
    flex-direction: column;
-   gap: 1.5rem;
+   gap: 1rem;
 }
 
 .header-form > h2 {
-   font-size: 48px;
+   font-size: 58px;
    font-family: "Inter";
    font-weight: 700;
 
@@ -920,15 +930,133 @@ textarea::-webkit-scrollbar {
    cursor: pointer;
 }
 
+.btn-send {
+   /* padding: 1.2em 6em;
+   background: none;
+   border: 2px solid #fff;
+   font-size: 15px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+
+   position: relative;
+
+   color: white;
+
+   cursor: pointer;
+   overflow: hidden;
+   transition: all 0.3s;
+   border-radius: 12px;
+   background: var(--secondy-main-color);
+   font-weight: bolder;
+   box-shadow: 10px 2px 0 2px var(--main-color); */
+
+
+   /* display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 8px; */
+}
+
+/* .btn-send:hover {
+   background: var(--main-color);
+   color: var(--secondy-main-color);
+   box-shadow: 5px 2px 0 2px var(--secondy-main-color);
+} */
+
+.btn-send {
+   width: 15rem;
+   height: 4rem;
+
+   font-size: 16px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   display: inline-block;
+   font-weight: 600;
+   overflow: hidden;
+   cursor: pointer;
+
+   z-index: 1;
+   background: var(--main-color);
+   color: var(--secondy-main-color);
+   border: 2px solid var(--secondy-main-color);
+   border-radius: 15px;
+
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   transition: all 0.3s;
+   box-shadow: 5px 3px 0px 2px;
+
+
+}
+
+.btn-send:active {
+   transform: scale(0.85);
+}
+
+.btn-send > .material-symbols-outlined {
+   position: absolute;
+   font-size: 30px;
+   left: 145px;
+   animation: slidein 2.5s infinite;
+}
+
+.btn-send:hover .material-symbols-outlined {
+   position: absolute;
+   left: 145px;
+   color: var(--main-color);
+
+   transition: all 0.3s;
+   animation: slidein 2.5s infinite;
+   font-size: 40px;
+}
+ 
+.btn-send::before {
+   position: absolute;
+   content: "";
+   background: var(--secondy-main-color);
+   width: 350px;
+   height: 400px;
+   z-index: -1;
+   border-radius: 20%;
+
+}
+
+.btn-send:hover > button {
+}
+
+.btn-send:hover {
+   box-shadow: 5px 3px 0px 2px #241235;
+   border: 2px solid var(--secondy-main-color);
+   color: white;
+  /* transform: scale(1.05); */
+}
+ 
+.btn-send:before {
+   top: 100%;
+   left: 100%;
+   transition: 0.3s all;
+}
+ 
+.btn-send:hover::before {
+   top: -30px;
+   left: -30px;
+}
+
 .btn-send-wrapper {
+   margin-top: 3rem;
+
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-.btn-send {
+/* .btn-send {
    cursor: pointer;
 
+   background: transparent;
    border: 2px solid var(--secondy-main-color);
    border-radius: 25px;
 
@@ -947,25 +1075,28 @@ textarea::-webkit-scrollbar {
    justify-content: center;
    gap: 1px;
    
+} */
+
+/* .btn-send:hover .material-symbols-outlined {
+   color: white;
 }
 
 .btn-send > .material-symbols-outlined {
-   color: var(--secondy-main-color);
+   color: white;
    transition: all 0.2s;
-}
+} */
 
-.btn-send:hover {
+/* .btn-send:hover {
    background: var(--secondy-main-color);
    color: white;
-
    transform: translateY(-5px);
-}
+} */
 
-.btn-send:hover .material-symbols-outlined {
+/* .btn-send:hover .material-symbols-outlined {
    color: white;
    font-size: 30px;
    margin-left: 5px;
-}
+} */
 
 .btn-send > span {
 }
@@ -984,14 +1115,44 @@ textarea::-webkit-scrollbar {
 
 .footer-container {
    display: flex;
+
+   font-family: "Inter";
+   font-weight: 500;
+
    gap: 25rem;
 }
 
+.footer-column {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.footer-column-sections > ul {
+   line-height: 1.6;
+}
+
+.social-icons {
+   display: flex;
+   flex-direction: column;
+   font-size: 30px;
+   
+   gap: 5px;
+}
+
 footer {
-   padding: 8rem 10rem;
+   padding: 7rem 10rem;
    font-size: 20px;
    background: var(--main-color);
    color: var(--secondy-main-color);
+}
+
+.footer-bottom {
+   display: flex;
+   align-items: center;
+   
+   justify-content: space-between;
+
 }
 
 
@@ -1001,3 +1162,16 @@ footer {
 
 
 /* /FOOTER */
+
+
+@keyframes slidein {
+   0% {
+      margin-left: 0px;
+   }
+   50% {
+      margin-left: 15px;
+   }
+   100% {
+      margin-left: 0;
+   }
+}

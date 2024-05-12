@@ -127,7 +127,6 @@ body {
 
 .top-header.scrolled-home nav ul li .home-link {
     border-bottom: 3px solid var(--main-color);
-
 }
 
 
@@ -268,7 +267,13 @@ body {
 }
 
 
+.top-header.scrolled-contact .links {
+   opacity: 0%;
+}
 
+.top-header.scrolled-contact .logo {
+   opacity: 0%;
+}
 
 /* /SCROLLED PROJECT */
 
@@ -572,6 +577,7 @@ body {
     font-weight: 200;
 
     margin-top: 210px;
+    padding-left: 5px;
 }
 
 .main-principal > .main-txt-all > .txt-greet > strong {
@@ -786,6 +792,17 @@ body {
     100% {
       transform: translateY(0);
     }
+}
+
+@keyframes slide {
+   0% {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
 }
 
 @keyframes ghost {
