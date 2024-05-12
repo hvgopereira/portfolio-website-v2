@@ -25,8 +25,8 @@ Estou animado para compartilhar o resultado final deste projeto e espero que ele
 Obrigado por acompanhar o meu progresso neste projeto!
 
 ##
-<h3 align="left"> Paleta de Cores: </h3>
 
+<h3 align="left"> Paleta de Cores: </h3>
 <section>
 <img align="left" src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/b10acbdb-7e38-4305-bb28-4b13b2a8defe" title="Paleta de Cores" min-width="400px" max-width="400px" width="400px"></img>
 <p align="right"> Arrisquei usar essas cores exóticas mas que combinam muito, e me surpreendi, eu gostei muito de estar fazendo esse site, e brincar com as sobreposições e cores, resultado final vai ficar fo$@ ! </p>
@@ -35,55 +35,45 @@ Obrigado por acompanhar o meu progresso neste projeto!
 ##
 
 <h3 align="left"> Sessão About: </h3>
-
 <p> Foi muito legal trabalhar nessa sessão e ver o resultado final. Claro, sempre podemos ajustar algumas coisas no futuro, mas estou realmente empolgado para continuar trabalhando nas próximas etapas deste projeto. Cada nova sessão é uma oportunidade para aprender e crescer, e mal posso esperar para ver como tudo vai se desenvolver. Vamos em frente! </p>
 
 
 
 <h6 align="right">Adicionado 27/04</h6>
-
-
 <img src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/d125de07-461a-4057-a6a7-a9118cc83324"> </img>
+
 <section align="center"> Illustração feita gratuitamente no site: https://storyset.com </section>
 
 #
 
 <h3 align="left"> Sessão Services and Skills: </h3>
-
 <p> Sessão que de primeira não tinha gostado muito do resultado mas estou me acostumando kkk, pode passar por alterações ainda, mas por hora essa será minha sessão de services, que apresento os serviços prestados pela Luna Code, além das skills, quais softwares, frameworks que ela domina. </p>
 
 <h6 align="right">Adicionado 30/04</h6>
-
 <video src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/aac4ed0c-a256-4f23-9a2f-1e312586f3b0"></video>
 
 ##
 
 <h3 align="left"> Sessão Projects </h3>
-
 <p> Esse sessão fiz meio que no automático, já tinha a ideia na cabeça e com várias dificuldades kkk consegui fazer e acho que ficou legal, mas pode ocorrer mudanças no futuro. </p>
 
 <h6 align="right">Adicionado 06/04</h6>
-
 <video src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/3a0d19c9-1091-4c5b-90a5-b61d5cb46b60"></video>
 
 
 ##
 
 <h3 align="left"> Sessão Contact Me </h3>
-
 <p> Formulário objetivo para entrar em contato com a Luna Code, gostei do resultado, e as idéias </p>
 
 <h6 align="right">Adicionado 12/05</h6>
-
 ![Captura de tela 2024-05-12 201456](https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/6c0f90e3-8485-440e-89f8-98c83e6528fc)
 
 ##
 
 <h3 align="center"> JavaScript adicionado </h3>
 
-<p> Tive que adcionar um pouco de código javascript para funcionalidade do site, que é fundamental pra usabilidade do usúario como no vídeo mostrado abaixo. </p>
-
-##
+<p align="center"> Tive que adcionar um pouco de código javascript para funcionalidade do site, que é fundamental pra usabilidade do usúario como no vídeo mostrado abaixo. </p>
 
 
 
