@@ -12,7 +12,7 @@
 </div>
  
 
-<img title="Logo Hugo Pereira" src="https://github.com/hvgopereira/netflix-remake/assets/162385532/1063be5e-a9fa-4aba-a6e5-ff5a99957761" min-width="150px" max-width="150px" width="150px" align="right" alt="Logo Hugo Pereira" > </img>
+<img title="Logo Hugo Pereira" src="https://github.com/hvgopereira/netflix-remake/assets/162385532/1063be5e-a9fa-4aba-a6e5-ff5a99957761" min-width="150px" max-width="150px" width="150px" align="right" alt="Logo Hugo Pereira"></img>
 
   Olá a todos!👋 Este é o meu projeto de portfólio que estou desenvolvendo como parte do meu trabalho para a faculdade. Como parte do meu curso, fui desafiado a criar um portfólio para um desenvolvedor de software fictício, utilizando apenas HTML e CSS, e me dei o desafio de abordar um tema diferente, explorando cores diferentes, pra sair do dark e light mode.
 
