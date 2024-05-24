@@ -4,11 +4,11 @@
 
 <h6 align="center"> OBS: todas informações nesse site são FICTÍCIAS, não há informações e nem dados verdadeiros, site criado apenas para fim de estudos. <br> Imagem da garota retirada do site: https://freepik.com</h6>
 
-<video src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/c11d5460-e6d0-432b-8f08-d45c48162bc7"> </video>
 
 
 <div align="center">
-  <h2 align="left">Em Desenvolvimento... </h2>
+  <h1 align="left"> Projeto Completo </h1>
+ 
 </div>
  
 
@@ -26,7 +26,7 @@ Obrigado por acompanhar o meu progresso neste projeto!
 
 ##
 
-<h3 align="left"> Paleta de Cores: </h3>
+<h2 align="left"> Paleta de Cores: </h2>
 <section>
 <img align="left" src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/b10acbdb-7e38-4305-bb28-4b13b2a8defe" title="Paleta de Cores" min-width="400px" max-width="400px" width="400px"></img>
 <p align="right"> Arrisquei usar essas cores exóticas mas que combinam muito, e me surpreendi, eu gostei muito de estar fazendo esse site, e brincar com as sobreposições e cores, resultado final vai ficar fo$@ ! </p>
@@ -34,7 +34,11 @@ Obrigado por acompanhar o meu progresso neste projeto!
 
 ##
 
-<h3 align="left"> Sessão About: </h3>
+### Sessão Home:
+<video src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/c11d5460-e6d0-432b-8f08-d45c48162bc7"> </video>
+
+
+### Sessão About:
 <p> Foi muito legal trabalhar nessa sessão e ver o resultado final. Claro, sempre podemos ajustar algumas coisas no futuro, mas estou realmente empolgado para continuar trabalhando nas próximas etapas deste projeto. Cada nova sessão é uma oportunidade para aprender e crescer, e mal posso esperar para ver como tudo vai se desenvolver. Vamos em frente! </p>
 
 
@@ -46,7 +50,7 @@ Obrigado por acompanhar o meu progresso neste projeto!
 
 #
 
-<h3 align="left"> Sessão Services and Skills: </h3>
+### Sessão Services and Skills:
 <p> Sessão que de primeira não tinha gostado muito do resultado mas estou me acostumando kkk, pode passar por alterações ainda, mas por hora essa será minha sessão de services, que apresento os serviços prestados pela Luna Code, além das skills, quais softwares, frameworks que ela domina. </p>
 
 <h6 align="right">Adicionado 30/04</h6>
@@ -54,16 +58,16 @@ Obrigado por acompanhar o meu progresso neste projeto!
 
 ##
 
-<h3 align="left"> Sessão Projects </h3>
+### Sessão Projects
 <p> Esse sessão fiz meio que no automático, já tinha a ideia na cabeça e com várias dificuldades kkk consegui fazer e acho que ficou legal, mas pode ocorrer mudanças no futuro. </p>
 
-<h6 align="right">Adicionado 06/04</h6>
+<h6 align="right"Adicionado 06/04</h6>
 <video src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/3a0d19c9-1091-4c5b-90a5-b61d5cb46b60"></video>
 
 
 ##
 
-<h3 align="left"> Sessão Contact Me </h3>
+### Sessão Contact Me
 <p> Formulário objetivo para entrar em contato com a Luna Code, gostei do resultado, e as idéias </p>
 
 <h6 align="right">Adicionado 12/05</h6>
@@ -79,12 +83,11 @@ Obrigado por acompanhar o meu progresso neste projeto!
 
 <h6> Sem JS </h6>
 <img width="1500px" src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/0f7154a2-04b8-43da-a766-396c19a00f04"> </img>
-<p align="center" > ! O header ficava invísvel e muito ruim de utilizar ao passar para outras sessões </p>
+<p align="center" > ! O header ficava invísivel e muito ruim de utilizar ao passar para outras sessões </p>
 
 <h6> Com JS </h6>
 <img width="1500px" src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/01277b0f-043b-47bd-8fb7-853321181014"> </img>
 <p align="center" > ! E aqui está resolvido, sempre que passo pra outra sessão a header se adequa a mesma, além de adcionar a borda embaixo representando cada sessão. </p>
-
 
 ##
 
