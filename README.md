@@ -84,6 +84,8 @@ Obrigado por acompanhar o meu progresso neste projeto!
 
 <img src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/11619987-9a1e-467e-8a71-fe0a3c11767a)" alt="Sessão Footer"></img>
 
+##
+
 <h3 align="center"> JavaScript adicionado </h3>
 
 <p align="center"> Tive que adcionar um pouco de código javascript para funcionalidade do site, que é fundamental pra usabilidade do usúario como no vídeo mostrado abaixo. </p>
