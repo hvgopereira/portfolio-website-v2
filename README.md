@@ -2,8 +2,10 @@
 
  <h3 align="center">:red_circle: NÃO É RESPONSIVO :red_circle:</h3>
  <h6 align="center"> OBS: todas informações nesse site são FICTÍCIAS, não há informações e nem dados verdadeiros, site criado apenas para fim de estudos. <br> Imagem da garota retirada do site: https://freepik.com</h6>
+
+##
  
-<h6 align="right"> SITE COMPLETO </h6>
+<h6 align="center"> SITE COMPLETO </h6>
 
 https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/010e5ce4-da0a-476b-adee-aeb61c5591c6
 
@@ -80,7 +82,7 @@ Obrigado por acompanhar o meu progresso neste projeto!
 
 ### Sessão Footer
 
-<img src="" alt="Sessão Footer"></img>
+<img src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/11619987-9a1e-467e-8a71-fe0a3c11767a)" alt="Sessão Footer"></img>
 
 <h3 align="center"> JavaScript adicionado </h3>
 
