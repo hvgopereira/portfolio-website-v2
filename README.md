@@ -78,10 +78,15 @@ Obrigado por acompanhar o meu progresso neste projeto!
 
 ##
 
+### Sessão Footer
+
+<img src="" alt="Sessão Footer"></img>
+
 <h3 align="center"> JavaScript adicionado </h3>
 
 <p align="center"> Tive que adcionar um pouco de código javascript para funcionalidade do site, que é fundamental pra usabilidade do usúario como no vídeo mostrado abaixo. </p>
 
+##
 
 
 <h6> Sem JS </h6>
