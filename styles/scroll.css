@@ -1,0 +1,125 @@
+/* HEADER JS */
+   /* ABOUT JS */
+.top-header.scrolled-home nav ul li .home-link {
+   border-bottom: 3px solid var(--main-color);
+}
+
+.top-header.scrolled-about {
+   animation: ghost 0.5s;
+
+}
+
+.top-header.scrolled-about nav ul li .about-link {
+   border-bottom: 3px solid var(--main-color) ;
+}
+
+.top-header.scrolled-about nav ul li a {
+   color: var(--secondy-main-color);
+   font-weight: 600;   
+}
+
+.top-header.scrolled-about nav ul li a:hover {
+   color: #19042c;
+}
+
+.top-header.scrolled-about .logo {
+      content: url(../assets/logohp-web-purplegreen.png);
+   
+}
+
+.top-header.scrolled-about nav ul li home-link {
+   border-bottom: 1px solid var(--main-color);
+}
+
+
+.top-header.scrolled-service nav ul li .experience-link {
+   border-bottom: 3px solid var(--main-color);
+}
+
+
+
+/* SCROLLED PROJECT */
+.top-header.scrolled-project-margin .btn-header {
+   background: var(--secondy-main-color);
+   transition: all 0.3s;
+}
+
+.top-header.scrolled-project-margin .midia-icons i {
+   color: var(--main-color);
+   transition: all 0.3s;
+}
+
+.top-header.scrolled-project {
+   transition: all 0.3s;
+}
+
+.top-header.scrolled-project-margin nav ul li .projects-link { 
+   border-bottom: 3px solid var(--main-color);
+}
+
+.top-header.scrolled-project nav ul li .projects-link {
+   border-bottom: 3px solid var(--main-color) ;
+}
+
+
+.top-header.scrolled-project .links {
+   font-weight: 600;
+   color: var(--main-color);
+   background: var(--secondy-main-color);
+   border-radius: 10px;
+
+}
+
+.top-header.scrolled-project .logo {
+   content: url(../assets/logohp-web-purplegreen.png);
+}
+
+.top-header.scrolled-project .btn-header {
+   background: var(--secondy-main-color);
+   color: white;
+   transition: all 0.3s;
+}
+
+.top-header.scrolled-project .midia-icons i {
+   color: var(--secondy-main-color);
+}
+
+.top-header.scrolled-project .midia-icons i:hover {
+   border-bottom: 3px solid var(--main-color);
+}
+
+.top-header.scrolled-project .links:hover {
+   border-bottom: 3px solid var(--main-color);
+   color: white;
+}
+
+
+.top-header.scrolled-contact .links {
+   opacity: 0%;
+}
+
+.top-header.scrolled-contact .logo {
+   opacity: 0%;
+}
+
+.scrolled-service .midia-icons i {
+   color: var(--main-color);
+   transition:  0.3s;
+}
+
+.scrolled-service .midia-icons i:hover {
+   border-bottom: 2px solid var(--main-color);
+}
+
+.scrolled-service .btn-header {
+   background: var(--main-color);
+   color: var(--secondy-main-color);
+   transition: all 0.3s;
+
+}
+
+.top-header.scrolled-footer {
+   opacity: 0;
+}
+
+   /* /HEADER JS */
