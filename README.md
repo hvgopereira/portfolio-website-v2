@@ -2,7 +2,11 @@
 
  <h3 align="center">:red_circle: NÃO É RESPONSIVO :red_circle:</h3>
  <h6 align="center"> OBS: todas informações nesse site são FICTÍCIAS, não há informações e nem dados verdadeiros, site criado apenas para fim de estudos. <br> Imagem da garota retirada do site: https://freepik.com</h6>
-
+ <section align="center">
+  <a href="https://x.com/hvgopereira"><img src="https://img.shields.io/badge/-Twitter-212121?style=for-the-badge&logo=Twitter&logoColor=white"></img></a>
+  <a href="https://discord.gg/gvzwyFMqNx" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+ </section>
+ 
 ##
  
 <h6 align="center"> SITE COMPLETO </h6>
