@@ -97,7 +97,6 @@ Obrigado por acompanhar o meu progresso neste projeto!
 
 ##
 
-
 <h6> Sem JS </h6>
 <img width="1500px" src="https://github.com/hvgopereira/portfolio-website-v2/assets/162385532/0f7154a2-04b8-43da-a766-396c19a00f04"> </img>
 <p align="center" > ! O header ficava invísivel e muito ruim de utilizar ao passar para outras sessões </p>
